@@ -11,16 +11,17 @@ addElement();
 function addElement(){
 var newDiv = document.createElement("div");
 // newDiv.style.backgroundColor = "red";
-newDiv.style.width="100px";
-newDiv.style.height="100px";
+newDiv.style.width="11.1%";
+newDiv.style.height="11.1%";
 newDiv.style.float="left";
+newDiv.style.paddingBottom="11.1%";
 
 return newDiv;
 } 
 //call local var by calling its function return
 //calling function addElement return answer which become new div which 
 //becomes document.createElement("div")
-for (var i=1; i<=64; i++) {
+for (var i=1; i<=63; i++) {
 	var randomDiv = addElement();
 	//adds local var to the outside but not one times but many times
 	//function addElement returns newDiv which is document.createElement("div");
@@ -35,6 +36,7 @@ for (var i=1; i<=64; i++) {
 	//whatever happens it will be assign this variable. You don't want this 
 	//to be in the function addElement though in other body to body(not good).
 	document.body.appendChild(randomDiv);
+
 		
 
 }
