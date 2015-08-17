@@ -20,7 +20,7 @@ return newDiv;
 //call local var by calling its function return
 //calling function addElement return answer which become new div which 
 //becomes document.createElement("div")
-for (var i=1; i<=64; i++) {
+for (var i=1; i<=63; i++) {
 	var randomDiv = addElement();
 	//adds local var to the outside but not one times but many times
 	//function addElement returns newDiv which is document.createElement("div");
