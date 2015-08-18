@@ -30,12 +30,12 @@ for (var i=1; i<=63; i++) {
 
 	 if( i % 2 === 0 ){
 	 	randomDiv.style.backgroundColor="red";
-	 	randomDiv.style.opacity=".4";
+	 	randomDiv.style.opacity=".9";
 	 	randomDiv.style.zIndex="";
 	 }
 	 else{
 	 	randomDiv.style.backgroundColor="black";
-	 	randomDiv.style.opacity=".3";
+	 	randomDiv.style.opacity=".9";
 	 	randomDiv.style.zIndex="";
 	 }
 	//you can define a function outside of for loop to attach it to the body 
@@ -55,12 +55,13 @@ for (var i=1; i<=63; i++) {
    		
    	}
    	else
-   		newDiv.style.backgroundColor="green";
+   		newDiv.style.background="linear-gradient(45deg, #ed1c24, #fcee21)";
+   		newDiv.style.position="relative";
    		 newDiv.style.width="100%";
    		 newDiv.style.height="100%";
    		 newDiv.style.paddingBottom="78%";
-   		 newDiv.style.opacity=".4";
-   		 newDiv.style.zIndex="1";
+   		 newDiv.style.opacity=".8";
+   		 newDiv.style.zIndex="";
    		
 }
 // }
