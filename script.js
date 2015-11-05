@@ -11,8 +11,9 @@ addElement();
 function addElement(){
 var newDiv = document.createElement("div");
 // newDiv.style.backgroundColor = "red";
-newDiv.style.width="100px";
-newDiv.style.height="100px";
+newDiv.style.width="11.1%";
+newDiv.style.height="11.1%";
+newDiv.style.paddingBottom= "11.1%";
 newDiv.style.float="left";
 
 return newDiv;
