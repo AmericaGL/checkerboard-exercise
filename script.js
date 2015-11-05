@@ -27,15 +27,6 @@ var newColor = randomDiv.style.backgroundColor= 'rgb(' + r + "," + g + "," + b +
 return newColor;
 }
 
-
-//"rgb(111,111,111)";
-//var rgb = r + " " + g + " " + b + " "; "rgb(" + r + "," + 
-// var hi = "HEY"
-// hi + " america"
-
-// return  newColor;
-
-
  
 //call local var by calling its function return
 //calling function addElement return answer which become new div which 
