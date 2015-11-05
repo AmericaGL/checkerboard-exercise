@@ -28,30 +28,10 @@ newBottomDiv.style.paddingBottom="11.1%";
 
 return newBottomDiv;
 } 
-//call local var by calling its function return
-//calling function addElement return answer which become new div which 
-//becomes document.createElement("div")
+
 for (var i=1; i<=63; i++) {
 	var randomDiv = addElement();
 	var randomColor= addColors();
-
-//	var megaDiv = addBigDiv();
-	//adds local var to the outside but not one times but many times
-	//function addElement returns newDiv which is document.createElement("div");
-
-	 // if( i % 2 === 0 ){
-	 // 	randomDiv.style.backgroundColor="red";
-	 // 	randomDiv.style.opacity=".9";
-	 // 	randomDiv.style.zIndex="";
-	 // }
-	 // else{
-	 // 	randomDiv.style.backgroundColor="black";
-	 // 	randomDiv.style.opacity=".9";
-	 // 	randomDiv.style.zIndex="";
-	 // }
-	//you can define a function outside of for loop to attach it to the body 
-	//whatever happens it will be assign this variable. You don't want this 
-	//to be in the function addElement though in other body to body(not good).
 	document.body.appendChild(randomDiv);
 	randomDiv.style.position="relative";
 
