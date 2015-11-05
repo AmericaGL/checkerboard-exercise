@@ -12,7 +12,8 @@ function addElement(){
 var newDiv = document.createElement("div");
 // newDiv.style.backgroundColor = "red";
 newDiv.style.width="11.1%";
-newDiv.style.height="11.1%";
+newDiv.style.height="width";
+//you can change height to equat to width and it will always be a square
 newDiv.style.paddingBottom= "11.1%";
 newDiv.style.float="left";
 
@@ -21,6 +22,7 @@ return newDiv;
 //call local var by calling its function return
 //calling function addElement return answer which become new div which 
 //becomes document.createElement("div")
+//you need to multiply the div 64 times by adding an array
 for (var i=1; i<=63; i++) {
 	var randomDiv = addElement();
 	//adds local var to the outside but not one times but many times
